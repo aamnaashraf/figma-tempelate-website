@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Hero = () => {
     return (
       <section className="bg-black text-white w-full min-h-screen flex"> {/* Updated background color */}
@@ -16,7 +18,7 @@ const Hero = () => {
   
           {/* Image */}
           <div>
-            <img src="/img 1.png" alt="iPhone 14 Pro" className="w-96" />
+            <Image src="/img 1.png" alt="iPhone 14 Pro" className="w-96" />
           </div>
         </div>
       </section>
