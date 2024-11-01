@@ -17,9 +17,9 @@ const Hero = () => {
           </div>
   
           {/* Image */}
-          <div>
-            <Image src="/img 1.png" alt="iPhone 14 Pro" className="w-96" />
-          </div>
+          <div className="relative w-96 h-[512px]"> {/* Set explicit width and height */}
+          <Image src="/img 1.png" alt="iPhone 14 Pro" width={384} height={512} className="w-96" />
+</div>
         </div>
       </section>
     );
